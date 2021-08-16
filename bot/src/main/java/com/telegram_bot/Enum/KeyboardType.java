@@ -1,2 +1,5 @@
-package com.telegram_bot.Enum;public class KeyboardType {
+package com.telegram_bot.Enum;
+
+public enum KeyboardType {
+    CITY_CHOOSE
 }

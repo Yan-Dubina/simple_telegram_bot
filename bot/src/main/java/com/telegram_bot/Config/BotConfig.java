@@ -7,6 +7,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.math.BigInteger;
+import java.util.List;
 
 @Getter
 @Setter
@@ -20,5 +21,11 @@ public class BotConfig {
     private String name;
 
     private String accessToken;
-    
+
+    private String nowWeatherApiTemp;
+
+    private String telegramCallbackAnswerTemp;
+
+    private List<Command> commands;
+
 }
